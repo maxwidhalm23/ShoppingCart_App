@@ -17,6 +17,8 @@
 		D8AAAE3F291544C300F7449D /* ShoppingCart_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AAAE3E291544C300F7449D /* ShoppingCart_AppTests.swift */; };
 		D8AAAE49291544C300F7449D /* ShoppingCart_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AAAE48291544C300F7449D /* ShoppingCart_AppUITests.swift */; };
 		D8AAAE4B291544C300F7449D /* ShoppingCart_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AAAE4A291544C300F7449D /* ShoppingCart_AppUITestsLaunchTests.swift */; };
+		D8AAAE58291545F500F7449D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AAAE57291545F500F7449D /* Item.swift */; };
+		D8C38416291E8ABF00B2571E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C38415291E8ABF00B2571E /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D8AAAE44291544C300F7449D /* ShoppingCart_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCart_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AAAE48291544C300F7449D /* ShoppingCart_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart_AppUITests.swift; sourceTree = "<group>"; };
 		D8AAAE4A291544C300F7449D /* ShoppingCart_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8AAAE57291545F500F7449D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D8C38415291E8ABF00B2571E /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 		D8AAAE23291544C200F7449D /* ShoppingCart_App */ = {
 			isa = PBXGroup;
 			children = (
+				D8C38415291E8ABF00B2571E /* ItemCell.swift */,
 				D8AAAE24291544C200F7449D /* AppDelegate.swift */,
 				D8AAAE26291544C200F7449D /* SceneDelegate.swift */,
 				D8AAAE28291544C200F7449D /* ViewController.swift */,
+				D8AAAE57291545F500F7449D /* Item.swift */,
 				D8AAAE2A291544C200F7449D /* Main.storyboard */,
 				D8AAAE30291544C200F7449D /* Assets.xcassets */,
 				D8AAAE32291544C200F7449D /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AAAE58291545F500F7449D /* Item.swift in Sources */,
 				D8AAAE29291544C200F7449D /* ViewController.swift in Sources */,
+				D8C38416291E8ABF00B2571E /* ItemCell.swift in Sources */,
 				D8AAAE25291544C200F7449D /* AppDelegate.swift in Sources */,
 				D8AAAE27291544C200F7449D /* SceneDelegate.swift in Sources */,
 				D8AAAE2F291544C200F7449D /* ShoppingCart_App.xcdatamodeld in Sources */,
